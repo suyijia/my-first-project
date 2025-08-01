@@ -27,7 +27,7 @@ pipeline {
         stage('拉取代码') {
             steps {
                 echo "从 Git 仓库拉取分支：${params.BRANCH_NAME}"
-                git branch: "${params.BRANCH_NAME}", url: 'https://github.com/your-name/your-repo.git'
+                git branch: "${params.BRANCH_NAME}", url: 'https://github.com/suyijia/my-first-project.git'
             }
         }
 
